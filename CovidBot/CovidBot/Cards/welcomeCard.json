@@ -1,0 +1,28 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://images.app.goo.gl/RgELxttUk7VUcNU36",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to  Covid Diagonser!",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Get a Covid Overview",
+      "url": "https://www.mygov.in/covid-19"
+    }
+  ]
+}
